@@ -1,0 +1,13 @@
+
+def areaTriangulo(altura, base):
+    return (altura * base) / 2
+
+
+def areaCirculo(diametro):
+    result = (3.14159265359 * 0.25) * (diametro ** 2)
+    result = "{:.1f}".format(result)
+    return result
+
+
+print(areaTriangulo(5, 3))
+print(areaCirculo(10))
