@@ -1,0 +1,13 @@
+def n_primo(n):
+    divi = [i for i in range(2, n)]
+    for x in divi:
+        if n % x == 0:
+            return False
+    return True
+
+n = int(input())
+
+if n_primo(n):
+    print(n, 'es un número primo')
+else:
+    print(n, 'No es un número primo')
