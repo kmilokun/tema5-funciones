@@ -1,0 +1,12 @@
+
+def esBisiesto(n):
+    if n%4 == 0:
+        return True
+    return False
+
+año = int(input())
+
+if esBisiesto(año):
+    print(año, 'es bisiesto')
+else:
+    print(año, 'no es bisiesto')
